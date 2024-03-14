@@ -48,6 +48,11 @@ namespace ProjetoPrometeus
             }
         }
 
+        private void GeraTelaAtualizar()
+        {
+            Console.WriteLine("Caguei pora vc!");
+        }
+
         private void GeraTelaDeletar()
         {
             Console.WriteLine("Escreva o CPF do CLiente a ser deletado");
