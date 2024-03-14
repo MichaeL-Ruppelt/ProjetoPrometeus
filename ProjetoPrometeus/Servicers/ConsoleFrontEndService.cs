@@ -50,7 +50,7 @@ namespace ProjetoPrometeus
 
         private void GeraTelaAtualizar()
         {
-            Console.WriteLine("Caguei pora vc!");
+            Console.WriteLine("Cagou para mim!");
         }
 
         private void GeraTelaDeletar()
