@@ -20,10 +20,10 @@ namespace ProjetoPrometeus
             while (true) { 
             Console.WriteLine("Olá BEM VINDO, ao sistema X");
             Console.WriteLine("Seleciona a Opção abaixo");
-            Console.WriteLine("digite 1 - Para Consultar clientes");
-            Console.WriteLine("digite 2 - Para Deletar clientes");
-            Console.WriteLine("digite 3 - Para Atualizar clientes");
-            Console.WriteLine("digite 4 - Para Inserir clientes");
+            Console.WriteLine("digite 1 - Para Consultar associados");
+            Console.WriteLine("digite 2 - Para Deletar associados");
+            Console.WriteLine("digite 3 - Para Atualizar associados");
+            Console.WriteLine("digite 4 - Para Inserir associados");
 
             string option = Console.ReadLine();
 
