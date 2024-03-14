@@ -35,9 +35,9 @@ namespace ProjetoPrometeus
                     case "2":
                         GeraTelaDeletar();
                         break;
-                    //case "3":
-                    //    GeraTelaAtualizar();
-                    //    break;
+                    case "3":
+                        GeraTelaAtualizar();
+                        break;
                     case "4":
                         GeraTelaInserir();
                         break;
@@ -46,6 +46,11 @@ namespace ProjetoPrometeus
                         break;
                 }
             }
+        }
+
+        private void GeraTelaAtualizar()
+        {
+            Console.WriteLine("Caguei pora vc!");
         }
 
         private void GeraTelaDeletar()

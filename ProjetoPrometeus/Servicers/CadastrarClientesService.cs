@@ -54,5 +54,16 @@ namespace ProjetoPrometeus
             var clienteRemover = ConsultarCPF(cpf);
             Clientes.Remove(clienteRemover);
         }
+
+        public void Excluir(string cpf)
+        {
+            var clienteRemover = ConsultarCPF(cpf);
+            Clientes.Remove(clienteRemover);
+        }
+
+
     }
+
+
+
 }
